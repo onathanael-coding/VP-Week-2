@@ -1,4 +1,4 @@
-package com.example.composecomponent
+package com.oliver.vpweek2
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -32,8 +32,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.oliver.vpweek2.R
-
 
 @Composable
 fun Soal1View(innerPadding: PaddingValues) {
@@ -273,7 +271,8 @@ And everything has changed
 All I know is a new found grace
 All my days, I'll know your face
 All I know since yesterday
-Is everything has changed""", color = Color.White, fontWeight = FontWeight.Bold,
+Is everything has changed""", color = Color.White,
+                        fontWeight = FontWeight.Bold,
                         lineHeight = (20.sp)
                     )
                 }
